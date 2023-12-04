@@ -1,0 +1,18 @@
+Package: NWR
+Title: Package for Network Weighted Regression
+Version: 1.0.0.0000
+Authors@R: 
+    person("Scott", "Cleven", , "scott-cleven@uiowa.edu", role = c("aut", "cre"))
+Description: This package implements code to perform and summarize analyses on Network Weighted Regression models. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Imports:
+	igraph,
+	mvtnorm,
+	plot3D,
+	scales,
+	viridis,
+	tidygraph
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
