@@ -27,7 +27,7 @@
 NWR <- function(formula, data, y=FALSE, X=FALSE, A,
                 k = 5,
                 gamma_prior = list(mean=0, sigma = 1),
-                beta0_prior = list(mean=1, sd=1),
+                beta0_prior = list(mean=0, sd=1),
                 s2_prior = list(shape=1/2, scale=1/2),
                 rho_prior = list(mean=0.36, sd=0.7^2),
                 ...){
