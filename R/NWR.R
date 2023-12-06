@@ -33,7 +33,7 @@ NWR <- function(formula, data, y=FALSE, X=FALSE, A,
                 ...){
   ######### Getting the Data Prepared for optimization #############
   if(y==0 & X==0){
-    X = model.matrix(formula, data=data)[,-1]
+    X = as.matrix(model.matrix(formula, data=data)[,-1])
     y = unlist(data[as.character(formula[[2]])])
   }else if(y==0 & X==1){
     stop("You need an outcome y")
